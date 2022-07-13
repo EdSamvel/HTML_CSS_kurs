@@ -1,0 +1,131 @@
+body{
+    background: rgba(194, 244, 255, 0.552);
+}
+
+.überschrift {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #666;
+    max-width: 300px;
+    margin-left: 50px;
+    animation: üanima 5s linear infinite;
+    border-radius: 20px;
+    background: rgba(51, 51, 51, 0.305);
+
+  backdrop-filter: blur(10px);
+  z-index: 2;
+
+}
+
+p{font-size: 1.2em;}
+
+@keyframes üanima {
+
+    0%,
+    100% {
+      transform: translateY(07px);
+  
+    }
+  
+    50% {
+      transform: translateY(15px);
+    }
+  }
+
+.erster-abschnitt{
+    min-height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 60px;
+    border-radius: 20px;
+    background: rgba(51, 51, 51, 0.305);
+  backdrop-filter: blur(2px);
+  border: 1px solid #444;
+  z-index: 1;
+ 
+}
+
+.erster-abschnitt .erster-content{
+    max-width: 800px;
+    margin-left: 20px;
+}
+
+.erster-abschnitt .erstes-bild{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #555;
+ 
+}
+
+.zweiter-abschnitt {
+    min-height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 60px;
+    border-radius: 20px;
+    background: rgba(51, 51, 51, 0.305);
+  backdrop-filter: blur(20px);
+  border: 1px solid #444;
+
+}
+
+.zweiter-abschnitt .zweites-bild{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #555;
+}
+
+.zweiter-abschnitt .zweiter-content{
+    max-width: 900px;
+    margin-right: 20px; 
+   text-align: end;
+}
+
+.dritter-abschnitt{
+    min-height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 60px;
+    border-radius: 20px;
+    background: rgba(51, 51, 51, 0.305);
+  backdrop-filter: blur(2px);
+  border: 1px solid #444;
+ margin-top: 70px;
+ 
+}
+
+.dritter-abschnitt .dritter-content{
+    max-width: 800px;
+    margin-left: 20px;
+}
+
+.dritter-abschnitt .drittes-bild{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #555;
+ 
+}
