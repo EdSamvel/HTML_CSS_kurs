@@ -1,0 +1,7 @@
+.bildAE {
+  border-radius: 50%;
+  opacity: 0.7;
+}
+.bildAE:hover {
+  opacity: 1;
+}
