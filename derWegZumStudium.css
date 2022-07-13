@@ -1,5 +1,10 @@
-body{
-    background: rgba(194, 244, 255, 0.552);
+body {
+    background: rgb(49, 77, 113);
+background: linear-gradient(180deg, rgb(133, 160, 167) 0%, rgba(154,154,171,1) 86%); 
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   
 }
 
 .überschrift {
@@ -12,27 +17,29 @@ body{
     border-radius: 20px;
     background: rgba(51, 51, 51, 0.305);
 
-  backdrop-filter: blur(10px);
-  z-index: 2;
+    backdrop-filter: blur(10px);
+    z-index: 2;
 
 }
 
-p{font-size: 1.2em;}
+p {
+    font-size: 1.2em;
+}
 
 @keyframes üanima {
 
     0%,
     100% {
-      transform: translateY(07px);
-  
-    }
-  
-    50% {
-      transform: translateY(15px);
-    }
-  }
+        transform: translateY(07px);
 
-.erster-abschnitt{
+    }
+
+    50% {
+        transform: translateY(15px);
+    }
+}
+
+.erster-abschnitt {
     min-height: 45vh;
     display: flex;
     justify-content: space-between;
@@ -40,18 +47,18 @@ p{font-size: 1.2em;}
     margin-right: 60px;
     border-radius: 20px;
     background: rgba(51, 51, 51, 0.305);
-  backdrop-filter: blur(2px);
-  border: 1px solid #444;
-  z-index: 1;
- 
+    backdrop-filter: blur(2px);
+    border: 1px solid #444;
+    z-index: 1;
+
 }
 
-.erster-abschnitt .erster-content{
+.erster-abschnitt .erster-content {
     max-width: 800px;
     margin-left: 20px;
 }
 
-.erster-abschnitt .erstes-bild{
+.erster-abschnitt .erstes-bild {
     padding: 10px;
     display: flex;
     align-items: center;
@@ -61,7 +68,7 @@ p{font-size: 1.2em;}
     margin-bottom: 20px;
     border-radius: 20px;
     border: 1px solid #555;
- 
+
 }
 
 .zweiter-abschnitt {
@@ -73,12 +80,12 @@ p{font-size: 1.2em;}
     margin-right: 60px;
     border-radius: 20px;
     background: rgba(51, 51, 51, 0.305);
-  backdrop-filter: blur(20px);
-  border: 1px solid #444;
+    backdrop-filter: blur(20px);
+    border: 1px solid #444;
 
 }
 
-.zweiter-abschnitt .zweites-bild{
+.zweiter-abschnitt .zweites-bild {
     padding: 10px;
     display: flex;
     align-items: center;
@@ -91,13 +98,13 @@ p{font-size: 1.2em;}
     border: 1px solid #555;
 }
 
-.zweiter-abschnitt .zweiter-content{
+.zweiter-abschnitt .zweiter-content {
     max-width: 900px;
-    margin-right: 20px; 
-   text-align: end;
+    margin-right: 20px;
+    text-align: end;
 }
 
-.dritter-abschnitt{
+.dritter-abschnitt {
     min-height: 45vh;
     display: flex;
     justify-content: space-between;
@@ -105,18 +112,18 @@ p{font-size: 1.2em;}
     margin-right: 60px;
     border-radius: 20px;
     background: rgba(51, 51, 51, 0.305);
-  backdrop-filter: blur(2px);
-  border: 1px solid #444;
- margin-top: 70px;
- 
+    backdrop-filter: blur(2px);
+    border: 1px solid #444;
+    margin-top: 70px;
+
 }
 
-.dritter-abschnitt .dritter-content{
+.dritter-abschnitt .dritter-content {
     max-width: 800px;
     margin-left: 20px;
 }
 
-.dritter-abschnitt .drittes-bild{
+.dritter-abschnitt .drittes-bild {
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -127,5 +134,5 @@ p{font-size: 1.2em;}
     margin-bottom: 20px;
     border-radius: 20px;
     border: 1px solid #555;
- 
+
 }

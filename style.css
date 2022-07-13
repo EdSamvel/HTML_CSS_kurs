@@ -2,9 +2,11 @@
   border-radius: 50%;
   opacity: 0.7;
 }
+
 .bildAE:hover {
   opacity: 1;
 }
+
 #loader {
   position: absolute;
   left: 50%;
@@ -24,6 +26,7 @@
   0% {
     -webkit-transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
   }
@@ -33,6 +36,7 @@
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -51,6 +55,7 @@
     bottom: -100px;
     opacity: 0;
   }
+
   to {
     bottom: 0px;
     opacity: 1;
@@ -62,6 +67,7 @@
     bottom: -100px;
     opacity: 0;
   }
+
   to {
     bottom: 0;
     opacity: 1;
@@ -72,7 +78,6 @@
   display: none;
   text-align: center;
 }
-
 
 header {
   display: flex;
@@ -85,7 +90,7 @@ header {
   border-radius: 15px;
   backdrop-filter: blur(20px);
   text-transform: uppercase;
-color: #fff;
+  color: #fff;
 }
 
 ul {
@@ -106,4 +111,13 @@ header a {
 
 header a:hover {
   color: aqua;
+}
+
+body {
+  background: rgb(49, 77, 113);
+background: linear-gradient(180deg, rgb(133, 160, 167) 0%, rgba(154,154,171,1) 86%); 
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+ 
 }
